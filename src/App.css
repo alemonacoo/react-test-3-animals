@@ -53,6 +53,7 @@ button:active {
   display: flex;
   align-items: center;
   flex-direction: column;
+  position: relative;
 }
 
 .animalCard img {
@@ -64,4 +65,10 @@ button:active {
 .animalCard:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border: azure solid 1px;
+}
+
+#heart-img {
+  height: 10px;
+  position: absolute;
+  bottom: 10%;
 }

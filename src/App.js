@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Header from "./components/Header";
-import "./App.css";
+import "./style/App.css";
 import AnimalShow from "./components/AnimalShow";
 
 const getRandomAnimals = () => {

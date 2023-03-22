@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 5px;
+}
+
+header {
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: center;
+  color: green;
+  background-color: rgba(0, 255, 128, 0.25);
+  border: solid green 1px;
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px lightgray;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: rgba(0, 255, 128, 0.25);
+  border: solid 1px rgba(0, 255, 128, 0.25);
+}
+button:active {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.animalsContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.animalCard {
+  padding: 15px;
+  border-radius: 10px;
+  background-color: azure;
+  border: solid 1px lightgray;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.animalCard img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.animalCard:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border: azure solid 1px;
+}
